@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+textarea {
+  width: 250px;
+  height: 100px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+#gagnant {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+#historique {
+  margin-top: 15px;
+  list-style-type: none;
+  padding: 0;
+}
