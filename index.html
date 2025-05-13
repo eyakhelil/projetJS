@@ -6,17 +6,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Simulateur de tirage</h1>
+  <h1>Tirage au sort</h1>
 
-  <textarea id="noms" placeholder="Entrez les noms séparés par des virgules"></textarea>
-  <br><br>
+  <textarea id="noms" placeholder="Entrez des noms séparés par des virgules"></textarea><br>
+  <button onclick="tirer()">Lancer le tirage</button>
 
-  <button onclick="tirerAuSort()">Lancer le tirage</button>
-  <button onclick="viderHistorique()">Vider l'historique</button>
+  <p id="gagnant">Qui a tiré : </p>
 
-  <h2 id="gagnant">Qui a tiré :</h2>
-
-  <h3>Historique des tirages :</h3>
+  <h3>Historique :</h3>
   <ul id="historique"></ul>
 
   <script src="script.js"></script>

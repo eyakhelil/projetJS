@@ -5,23 +5,17 @@ body {
 }
 
 textarea {
-  width: 250px;
-  height: 100px;
+  width: 300px;
+  height: 80px;
 }
 
 button {
-  margin: 5px;
-  padding: 8px 12px;
-}
-
-#gagnant {
-  margin-top: 20px;
-  font-weight: bold;
-  color: green;
+  margin: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
 }
 
 #historique {
-  margin-top: 15px;
   list-style-type: none;
   padding: 0;
 }
