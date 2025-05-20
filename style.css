@@ -1,21 +1,60 @@
 body {
-  font-family: sans-serif;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
   padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
 }
 
 textarea {
-  width: 300px;
+  width: 80%;
   height: 80px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+  margin-top: 10px;
 }
 
 button {
-  margin: 10px;
-  padding: 10px 15px;
+  padding: 10px 20px;
+  margin: 15px 10px;
+  font-size: 16px;
+  background-color: #2b87f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #176de0;
+}
+
+#gagnant {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #0b8c52;
+  font-weight: bold;
 }
 
 #historique {
-  list-style-type: none;
+  margin-top: 20px;
   padding: 0;
+  list-style-type: none;
+}
+
+#historique li {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  margin: 5px auto;
+  padding: 8px;
+  width: 60%;
+  border-radius: 4px;
 }
